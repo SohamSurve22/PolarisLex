@@ -1,4 +1,4 @@
-# Asset Manager (PolarisLex)
+# Polarislex
 
 A deterministic, modular, and high-performance document compliance and asset management system. Asset Manager leverages a sophisticated multi-stage pipeline to process legal and financial documents, ensuring strict compliance with defined rules through deterministic parsing and validation.
 
@@ -74,7 +74,3 @@ npm run build
 ```
 
 The build artifacts will be generated in their respective `dist` folders.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
