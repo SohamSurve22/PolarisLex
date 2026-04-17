@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "isolatedModules": true,
+    "lib": ["es2022"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": false,
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": false,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "useUnknownInCatchVariables": true,
+    "alwaysStrict": true,
+    "skipLibCheck": true,
+    "target": "es2022",
+    "types": [],
+    "customConditions": ["workspace"],
+    "baseUrl": ".",
+    "paths": {
+      "@workspace/api-server": ["backend/server/src/index.ts"],
+      "@workspace/db": ["backend/db/src/index.ts"],
+      "@workspace/parser": ["backend/parser/index.ts"],
+      "@workspace/rules": ["backend/rules/index.ts"],
+      "@workspace/api-zod": ["packages/api-zod/src/index.ts"],
+      "@workspace/api-spec": ["packages/api-spec/package.json"],
+      "@workspace/api-client-react": ["packages/api-client-react/src/index.ts"]
+    }
+  }
+}
